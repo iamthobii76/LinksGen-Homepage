@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', arial, sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+
+#nav-bar{
+    padding-left: 150px;
+}
+
+#left-nav-list{
+    list-style-type: none;
+    display: flex;
+    padding-top: 0px;
+    font-size: 18px;
+}
+
+#right-nav-list{
+    position: relative;
+    bottom: 35px;
+    right: 175px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.color-blue{
+    color: #0099d7!important;
+}
+
+.fas{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.fa-cloud{
+    position: relative;
+    right: 12px;
+}
+
+.fa-list{
+    position: relative;
+    left: 21px;
+}
+
+.fa-donate{
+    position: relative;
+    right: 12px;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    padding: 20px;
+    color: #333333;
+}
+
+.nav-link1{
+    color: #0096d6;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 0;
+}
+
+.nav-link:hover{
+    text-decoration: none;
+    padding: 20px;
+    color: #0096d6;
+}
+
+#main-content{
+    padding-top: 30px;
+}
+
+form{
+    border: solid .3px #d6d6d6;
+    padding: 9px;
+    margin-left: 150px;
+    margin-right: 485px;
+    border-radius: 5px;
+    display: flex;
+}
+
+button{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border: solid .2px #d6d6d6;
+    padding: 5px;
+    width: 100px;
+    background-color: #1da1f2;
+    color: white;
+}
+
+button:hover{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border: solid .2px #d6d6d6;
+    padding: 5px;
+    width: 100px;
+    background-color: #1da1f2;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=text]{
+    position: relative;
+    border: solid .2px #d6d6d6;
+    border-right: none;
+    padding: 5px;
+    width: 580px;
+}
+
+input[type=text]:hover{
+    position: relative;
+    border: solid .2px #d6d6d6;
+    border-right: none;
+    padding: 5px;
+    width: 580px;
+    box-shadow: 1px 1px 5px 1px rgb(84, 177, 240);
+}
+
+#box-container{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.box-1, .box-2{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 180px;
+}
+
+.box-1{
+    border: solid #686868 .4px;
+}
+
+.box-2{
+    margin-left: 20px;
+    border: solid #55b155 .4px;
+}
+
+
+.free-user{
+    background-color: #686868;
+}
+
+.premium-user{
+    background-color: #55b155;
+}
+
+.premium-user, .free-user{
+    border-bottom: solid black .4px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.text-1{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 14px;
+    border-bottom: dashed rgb(214, 214, 214) .4px;
+}
+
+.text-12{
+    list-style-type: none;
+    padding: 15px;
+    font-size: 14px;
+}
+
+#right-side-container{
+    position: relative;
+    right: -975px;
+    bottom: 258px;
+    
+}
+#social-container, #shorten-url-container{
+    border-radius: 5px;
+}
+
+#social-container{
+    background-color: #ffffff;
+    border: solid .4px #d6d6d6;
+    width: 300px;
+    height: 250px;
+}
+
+#shorten-url-container{
+    margin-top: 19px;
+    width: 300px;
+    height: 250px;
+}
+
+.linksgen-img{
+    border: solid .4px #d6d6d6;
+    border-radius: 5px;
+}
+
+h4{
+    font-weight: normal;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+#container{
+    display: flex;
+    position: relative;
+    top: 170px;
+    left: 15px;
+}
+
+#twitter-container, #fb-container{
+    height: 27px;
+    width: 27px;
+    margin-left: 3px;
+    text-align: center;
+    border-radius: 3px;
+    transition: 1s;
+}
+
+#twitter-container:hover{
+    position: relative;
+    bottom: 4px;
+}
+
+#fb-container:hover{
+    position: relative;
+    bottom: 4px;
+}
+
+
+#fb-container{
+    background-color: #2c5a98;
+}
+
+#twitter-container{
+    background-color: #00a4f3;
+}
+
+.fab{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 5px;
+}
+
+footer{
+    position: fixed;
+    top: 630px;
+    width: 100%;
+    background-color: #f3f3f3;
+    border-top: solid .4px #d6d6d6;
+    padding: 10px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    #nav-bar{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #main-content{
+        overflow: scroll;
+    }
+}
